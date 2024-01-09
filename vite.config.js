@@ -5,4 +5,14 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
+  build: {
+    chunkSizeWarningLimit: 1000, // Adjust this value based on your project
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          three: ['three'],
+        },
+      },
+    },
+  },
 });
