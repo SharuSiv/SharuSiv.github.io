@@ -49,10 +49,10 @@ const About = () => {
       </div>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          As a passionate and motivated tech enthusiast actively seeking valuabe
-          work experiences, my career path has been shaped by hands-on projects
-          and comprehensive coursework. Please refer to my projects and other
-          sections for more.
+          As a passionate and motivated tech enthusiast actively seeking
+          valuable work experiences, my career path has been shaped by hands-on
+          projects and comprehensive coursework. Please refer to my projects and
+          other sections for more.
         </p>
       </div>
 
